@@ -9,7 +9,6 @@ roles:
   - name: cpln-test-bun
     type: web
     workload: cpln-test-bun
-    command: "bun run server.ts"
     port: 3000
     healthPath: /healthz
     public: true
