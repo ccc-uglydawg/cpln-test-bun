@@ -4,7 +4,7 @@ Bun.serve({
   fetch(req) {
     const url = new URL(req.url);
     if (url.pathname === '/healthz') return new Response('ok');
-    return Response.json({ runtime: 'bun', status: 'ok', cache: 'auth-basic-v4' });
+    return Response.json({ runtime: 'bun', status: 'ok', cache: 'auth-basic-v5' });
   },
 });
 console.log(`bun server on ${port}`);
