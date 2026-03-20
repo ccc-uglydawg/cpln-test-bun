@@ -5,7 +5,7 @@ build:
 cpln:
   org: cpln-git-deploy
   gvc: development
-roles:
+workloads:
   - name: cpln-test-bun
     type: web
     workload: cpln-test-bun
